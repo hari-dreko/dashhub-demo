@@ -13,3 +13,11 @@ Metode: Buildless HTML/CSS/JS valgt til en hurtig lokal designprototype uden pak
 Filer: index.html, README.md og dette dokument. Ingen kundedata, adgangskoder eller eksterne netværkskald i demoen. Repoet er offentligt efter Haris' godkendelse. Ingen deploymentopsætning medfølger.
 
 Kontrol: Browserkontrol gennemført af mobil- og desktoplayout, projektnavigation, filtrering til Nye produktbilleder, detaljedialog, light/dark-skift, ugevalg med opdaterede tal og binær beregning (19 bytes, 526 gentagelser). CSV-downloadtesten blev afbrudt af browserforbindelsen og er ikke bekræftet. Tilfældige tal er begrænset i koden; tilfredshed højst 100. Ingen merge eller deployment. Ingen workflows eller hostingfiler findes i repoet. GitHub Pages var deaktiveret ved repoaflæsning; eksterne hostingkoblinger er ikke fuldt verificeret. Afleveres lokalt og på branch.
+
+## Opdatering 16/11/2026: personligt overblik og Ret gitter
+
+Problem: Overblikket havde for meget tekst og et for afdæmpet lyst tema. Haris ønskede at prioritere kortene selv.
+
+Løsning i index.html: Lyst tema med lavendel, mint, fersken og rosa. Mindre skrift og forklaringer i detaljevisninger. Ret gitter til venstre for navnet aktiverer let rystende kort, træk og slip, håndtag og flyttepile. Færdig gemmer rækkefølgen i den aktuelle browser. Tastaturets pile kan også flytte et fokuseret kort. Reduceret bevægelse respekteres. Ingen ekstra pakker.
+
+Kontrol: Flytning med pil, gemt rækkefølge efter genindlæsning og detaljedialog verificeret i browseren. Lyst og mørkt tema kontrolleret. Berøringsbetjening på fysisk telefon er ikke testet. Træk via håndtaget og opdatering af demotal er også verificeret. Mobilvisning kontrolleret efter genindlæsning; ingen JavaScript-fejl i browserloggen. git diff --check bestået. Status: klar til review på opgavens branch, ikke deployet.
