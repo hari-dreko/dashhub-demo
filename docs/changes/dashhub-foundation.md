@@ -49,3 +49,10 @@ Problem: Efter flytning af kort manglede en vej tilbage til standardrækkefølge
 Løsning i index.html: Nulstil gitter vises ved siden af Færdig under redigering. Knappen gendanner den oprindelige rækkefølge; Færdig gemmer den. Tema og demotal ændres ikke. Headeren ombrydes på mobil.
 Kontrol: Flyttet kort, nulstillet, gemt og genindlæst i browseren. Alle 11 kort står i standardrækkefølge, og nulstil-knappen er skjult uden for redigering. Mobilvisning og git diff --check kontrolleret.
 Status: klar til review på haris/dashhub-foundation. Ikke merged eller deployet.
+
+## Opdatering 16/11/2026: tilbage til pastelfarver
+
+Problem: Haris foretrækker farverne fra det tidligere skærmbillede frem for statusfarvede kort.
+Løsning i index.html: Lyst tema får igen let lavendelfarvet baggrund og faste kortfarver i lavendel, mint, fersken og rosa. Store tal er mørke. Resultatstatus vises som en lille rød, orange, gul eller grøn markering med tekst. Samme palette bruges i rapportkortene. Mørkt tema bevares.
+Kontrol: Visuelt kontrolleret i mobilbrowser mod det vedhæftede billede, inklusive læsbare statusmarkeringer. git diff --check bestået.
+Status: klar til review på haris/dashhub-foundation. Ikke merged eller deployet.
