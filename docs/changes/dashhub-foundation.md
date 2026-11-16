@@ -28,3 +28,10 @@ Problem: De store tal viste ikke tydeligt, om resultatet var godt eller lavt.
 Løsning i index.html: Nøgletal og kort bruger rød, orange, gul og grøn i både lyst og mørkt tema. Kortene får også en tekststatus. Farven beregnes ud fra andel af demomålet: under 40 %, under 65 %, under 90 % og fra 90 %. Månedens mål er 10.000 aktiviteter, 2.500 sparede minutter og 80 opgaver. Ugens mål er 2.500, 600 og 20. Tilfredshed måles mod 100 %. Højere er bedre i denne demo; grænserne er illustrative, ikke kundens aftalte KPI'er. Detaljen forklarer mål og grænser.
 Kontrol: Browseren viser korrekte statusser for starttal, periodevalg opdaterer mål og farver, og mørkt tema viser gul, grøn og rød med læsbare tal. Detaljeforklaringen er verificeret. git diff --check bestået.
 Status: klar til review på haris/dashhub-foundation. Ingen merge eller deployment.
+
+## Opdatering 16/11/2026: hvid baggrund og tydeligere knapper
+
+Problem: Baggrunden og kanterne var for afdæmpede, og knapperne for små.
+Løsning i index.html: Hvid baggrund i lyst tema, tydeligere kantfarver i begge temaer og 1 px kanter på kort. Handlingsknapper, periodevalg og navigation får 0,5 em ekstra indvendig afstand. Gitterknapper er 40 × 40 px med ekstra plads over kortindholdet. Resultatfarver bevares.
+Kontrol: Mobilvisning kontrolleret i browseren i normal og Ret gitter-tilstand; større knapper og korttekst overlapper ikke. git diff --check bestået.
+Status: klar til review på haris/dashhub-foundation. Ikke merged eller deployet.
