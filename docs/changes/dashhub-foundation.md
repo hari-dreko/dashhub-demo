@@ -42,3 +42,10 @@ Problem: Lange detaljer skal kunne læses uden at miste luk-knappen eller næste
 Løsning i index.html: Detaljedialog med intern scroll og fast overskrift og bund. En deaktiveret knap viser næste skridt, fx Arbejd videre med projektet. Teksten Kun demo forklarer, at ingen destination er tilsluttet. Dashboardet bagved låses under visningen. Indholdet kan også scrolles med tastaturet og starter øverst ved genåbning.
 Kontrol: Browserkontrol på mobil og ved 500 px skærmhøjde. Indholdshøjde 421 px i et område på 237 px; scroll til bunden verificeret. Luk-knap og demoknap forbliver synlige. git diff --check bestået.
 Status: klar til review på haris/dashhub-foundation. Ingen merge eller deployment.
+
+## Opdatering 16/11/2026: nulstil gitter
+
+Problem: Efter flytning af kort manglede en vej tilbage til standardrækkefølgen.
+Løsning i index.html: Nulstil gitter vises ved siden af Færdig under redigering. Knappen gendanner den oprindelige rækkefølge; Færdig gemmer den. Tema og demotal ændres ikke. Headeren ombrydes på mobil.
+Kontrol: Flyttet kort, nulstillet, gemt og genindlæst i browseren. Alle 11 kort står i standardrækkefølge, og nulstil-knappen er skjult uden for redigering. Mobilvisning og git diff --check kontrolleret.
+Status: klar til review på haris/dashhub-foundation. Ikke merged eller deployet.
