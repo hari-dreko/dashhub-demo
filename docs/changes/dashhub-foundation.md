@@ -56,3 +56,9 @@ Problem: Haris foretrækker farverne fra det tidligere skærmbillede frem for st
 Løsning i index.html: Lyst tema får igen let lavendelfarvet baggrund og faste kortfarver i lavendel, mint, fersken og rosa. Store tal er mørke. Resultatstatus vises som en lille rød, orange, gul eller grøn markering med tekst. Samme palette bruges i rapportkortene. Mørkt tema bevares.
 Kontrol: Visuelt kontrolleret i mobilbrowser mod det vedhæftede billede, inklusive læsbare statusmarkeringer. git diff --check bestået.
 Status: klar til review på haris/dashhub-foundation. Ikke merged eller deployet.
+
+## Opdatering 16/11/2026: status uden farvet baggrund
+
+Problem: Statusmærkernes fyld var for markant.
+Løsning i index.html: Transparent status med neutral tekst og farve på kant og prik i begge temaer. Kortfarver bevares.
+Kontrol: CSS-regler og git diff --check kontrolleret. Status: klar til review på haris/dashhub-foundation; ikke merged eller deployet.
