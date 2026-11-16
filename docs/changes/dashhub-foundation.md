@@ -35,3 +35,10 @@ Problem: Baggrunden og kanterne var for afdæmpede, og knapperne for små.
 Løsning i index.html: Hvid baggrund i lyst tema, tydeligere kantfarver i begge temaer og 1 px kanter på kort. Handlingsknapper, periodevalg og navigation får 0,5 em ekstra indvendig afstand. Gitterknapper er 40 × 40 px med ekstra plads over kortindholdet. Resultatfarver bevares.
 Kontrol: Mobilvisning kontrolleret i browseren i normal og Ret gitter-tilstand; større knapper og korttekst overlapper ikke. git diff --check bestået.
 Status: klar til review på haris/dashhub-foundation. Ikke merged eller deployet.
+
+## Opdatering 16/11/2026: detaljer og næste skridt
+
+Problem: Lange detaljer skal kunne læses uden at miste luk-knappen eller næste skridt.
+Løsning i index.html: Detaljedialog med intern scroll og fast overskrift og bund. En deaktiveret knap viser næste skridt, fx Arbejd videre med projektet. Teksten Kun demo forklarer, at ingen destination er tilsluttet. Dashboardet bagved låses under visningen. Indholdet kan også scrolles med tastaturet og starter øverst ved genåbning.
+Kontrol: Browserkontrol på mobil og ved 500 px skærmhøjde. Indholdshøjde 421 px i et område på 237 px; scroll til bunden verificeret. Luk-knap og demoknap forbliver synlige. git diff --check bestået.
+Status: klar til review på haris/dashhub-foundation. Ingen merge eller deployment.
