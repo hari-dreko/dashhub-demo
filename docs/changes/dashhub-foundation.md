@@ -21,3 +21,10 @@ Problem: Overblikket havde for meget tekst og et for afdæmpet lyst tema. Haris 
 Løsning i index.html: Lyst tema med lavendel, mint, fersken og rosa. Mindre skrift og forklaringer i detaljevisninger. Ret gitter til venstre for navnet aktiverer let rystende kort, træk og slip, håndtag og flyttepile. Færdig gemmer rækkefølgen i den aktuelle browser. Tastaturets pile kan også flytte et fokuseret kort. Reduceret bevægelse respekteres. Ingen ekstra pakker.
 
 Kontrol: Flytning med pil, gemt rækkefølge efter genindlæsning og detaljedialog verificeret i browseren. Lyst og mørkt tema kontrolleret. Berøringsbetjening på fysisk telefon er ikke testet. Træk via håndtaget og opdatering af demotal er også verificeret. Mobilvisning kontrolleret efter genindlæsning; ingen JavaScript-fejl i browserloggen. git diff --check bestået. Status: klar til review på opgavens branch, ikke deployet.
+
+## Opdatering 16/11/2026: resultatfarver
+
+Problem: De store tal viste ikke tydeligt, om resultatet var godt eller lavt.
+Løsning i index.html: Nøgletal og kort bruger rød, orange, gul og grøn i både lyst og mørkt tema. Kortene får også en tekststatus. Farven beregnes ud fra andel af demomålet: under 40 %, under 65 %, under 90 % og fra 90 %. Månedens mål er 10.000 aktiviteter, 2.500 sparede minutter og 80 opgaver. Ugens mål er 2.500, 600 og 20. Tilfredshed måles mod 100 %. Højere er bedre i denne demo; grænserne er illustrative, ikke kundens aftalte KPI'er. Detaljen forklarer mål og grænser.
+Kontrol: Browseren viser korrekte statusser for starttal, periodevalg opdaterer mål og farver, og mørkt tema viser gul, grøn og rød med læsbare tal. Detaljeforklaringen er verificeret. git diff --check bestået.
+Status: klar til review på haris/dashhub-foundation. Ingen merge eller deployment.
